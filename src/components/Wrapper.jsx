@@ -29,7 +29,7 @@ export function Wrapper({ component, children }) {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black p-5 md:p-10">
+    <div className="container mx-auto min-h-screen bg-white text-black p-5 md:p-10">
       {/* Top Navigation */}
       <div className="flex items-center justify-between mb-8">
         <Link

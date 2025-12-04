@@ -7,7 +7,7 @@ export function ComponentPage({ id }) {
 
   if (!component) {
     return (
-      <div className="text-center mt-20 text-gray-800">
+      <div className="container mx-auto text-center mt-20 text-gray-800">
         <h1 className="text-2xl font-bold">Component Not Found</h1>
         <p className="mt-2">No UI experiment exists with the ID: {id}</p>
       </div>

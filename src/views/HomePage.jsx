@@ -3,7 +3,7 @@ import components from "@/data/components";
 
 export function HomePage() {
   return (
-    <main className="min-h-screen bg-gray-50 w-full h-full px-5 md:px-10">
+    <main className="container mx-auto min-h-screen bg-gray-50 w-full h-full px-5 md:px-10">
       {/* title */}
       <div className="max-w-2xl mx-auto pt-15 pb-0">
         <h1 className="text-3xl font-[900] mb-4 text-gray-800">

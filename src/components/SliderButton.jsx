@@ -20,9 +20,9 @@ export function SliderButton() {
       {/* Moving Box */}
       <div
         className="
-      absolute left-0.5 top-1/2 -translate-y-1/2
+      absolute left-[3px] top-1/2 -translate-y-1/2
       transition-all duration-300
-      group-hover:left-[calc(100%-42px)]
+      group-hover:left-[calc(100%-41px)]
       group-hover:rotate-180
       z-20
     "
@@ -39,7 +39,7 @@ export function SliderButton() {
 
 const Box = () => {
   return (
-    <div className="transition-transform duration-200 size-10 bg-[#FFCC00] rounded-[9px] flex flex-col justify-center items-center gap-0.5">
+    <div className="transition-transform duration-200 size-[38px] bg-[#FFCC00] rounded-[9px] flex flex-col justify-center items-center gap-0.5">
       <div className="grid grid-cols-5 gap-0.5">
         <Indicator />
         <Indicator />
@@ -84,8 +84,8 @@ const Indicator = ({ highlight }) => {
     <div
       className={`size-1 aspect-square rounded-full  ${
         highlight
-          ? "bg-white animate-pulse [pulse-duration:100ms] ease-linear duration-200"
-          : "bg-white/25 "
+          ? "bg-white"
+          : "bg-white/20"
       }`}
     ></div>
   );

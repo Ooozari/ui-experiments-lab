@@ -9,8 +9,8 @@ const components = [
     views: "388",
     viewCode: "https://github.com/Ooozari/ui-experiments-lab/blob/main/src/components/SliderButton.jsx",
     inspiredBy: {
-      sourceName: "Hyperplexed",
-      sourceUrl: "https://youtube.com/",
+      sourceName: "Aceternity UI",
+      sourceUrl: "https://ui.aceternity.com/",
     },
     componentId: "SliderButton"
   },

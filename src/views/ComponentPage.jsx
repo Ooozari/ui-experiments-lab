@@ -1,11 +1,12 @@
 "use client";
 
-import { Wrapper,SliderButton } from "@/components";
+import { Wrapper,SliderButton,SlickHoverEffect } from "@/components";
 import components from "@/data/components";
 
 // import more components here if needed
 const componentMap = {
   SliderButton: SliderButton,
+  SlickHoverEffect: SlickHoverEffect,
   // Other components: "OtherComponent": OtherComponent
 };
 

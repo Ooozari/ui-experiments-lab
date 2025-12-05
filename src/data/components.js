@@ -15,19 +15,22 @@ const components = [
     componentId: "SliderButton"
   },
   {
-    id: "glassmorphism-card",
-    visualSrc: "",
-    title: "Glassmorphism Card",
-    description: "Modern card component with frosted glass effect and backdrop blur.",
-    type: "Card",
+    id: "slick-hover-effect",
+    visualSrc: "/components/slick-hover-effect.webp",
+    title: "Slick Hover Reveal",
+    description:
+      "A smooth hover-reveal animation with sliding layers.",
+    type: "Hover Animation",
     likes: "156",
     views: "1247",
-    viewCode: "https://github.com/Ooozari/ui-experiments-lab",
+    viewCode:
+      "https://github.com/Ooozari/ui-experiments-lab/blob/main/src/components/SlickHoverEffect.jsx",
     inspiredBy: {
-      sourceName: "Design Systems",
-      sourceUrl: "https://dribbble.com/",
+      sourceName: "Lando Norris",
+      sourceUrl: "https://landonorris.com/",
     },
-  },
+    componentId: "SlickHoverEffect",
+  },  
   {
     id: "gradient-text",
     visualSrc: "",

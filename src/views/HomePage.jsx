@@ -3,9 +3,9 @@ import components from "@/data/components";
 
 export function HomePage() {
   return (
-    <main className="container mx-auto min-h-screen bg-gray-50 w-full h-full px-5 md:px-10">
+    <main className="container mx-auto min-h-screen bg-gray-50 w-full h-full px-5 md:px-10 pt-15 pb-20">
       {/* title */}
-      <div className="max-w-2xl mx-auto pt-15 pb-0">
+      <div className="max-w-2xl mx-auto ">
         <h1 className="text-3xl font-black mb-4 text-gray-800">
           Trendy UI Components
         </h1>

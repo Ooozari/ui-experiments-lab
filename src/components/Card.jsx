@@ -48,8 +48,8 @@ export function Card({
             className="object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
-          <div className="flex items-center justify-center h-full text-black text-sm bg-gray-50 font-bold">
-            No Preview
+          <div className="flex items-center justify-center h-full text-gray-600 text-sm bg-gray-50 font-bold">
+            Coming Soon!
           </div>
         )}
       </div>

@@ -1,9 +1,16 @@
-import { Wrapper } from "@/components/Wrapper";
+"use client";
+
+import { Wrapper,SliderButton } from "@/components";
 import components from "@/data/components";
+
+// import more components here if needed
+const componentMap = {
+  SliderButton: SliderButton,
+  // Other components: "OtherComponent": OtherComponent
+};
 
 export function ComponentPage({ id }) {
   const component = components.find((item) => item.id === id);
-  console.log("Component found:", component);
 
   if (!component) {
     return (
@@ -14,16 +21,14 @@ export function ComponentPage({ id }) {
     );
   }
 
-  const RenderComponent = component.render; // proper dynamic component
+  const RenderComponent = componentMap[component.componentId];
 
   return (
     <Wrapper component={component}>
       {RenderComponent ? (
         <RenderComponent />
       ) : (
-        <p className="text-gray-300">
-          No preview is available for this component.
-        </p>
+        <p className="text-gray-300">No preview is available for this component.</p>
       )}
     </Wrapper>
   );

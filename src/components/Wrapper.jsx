@@ -98,7 +98,7 @@ export function Wrapper({ component, children }) {
       </div>
 
       {/* Component Preview Box */}
-      <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm">
+      <div>
         {children}
       </div>
     </div>

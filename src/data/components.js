@@ -1,17 +1,18 @@
 const components = [
   {
     id: "trendy-button",
-    visualSrc: "",
+    visualSrc: "/components/slider-animation-button.webp",
     title: "Slider Animate Button",
     description: "Animated arrow button with sliding hover effect.",
     type: "Button",
     likes: "32",
     views: "388",
-    viewCode: "https://github.com/Ooozari/ui-experiments-lab",
+    viewCode: "https://github.com/Ooozari/ui-experiments-lab/blob/main/src/components/SliderButton.jsx",
     inspiredBy: {
       sourceName: "Hyperplexed",
       sourceUrl: "https://youtube.com/",
     },
+    componentId: "SliderButton"
   },
   {
     id: "glassmorphism-card",
